@@ -354,6 +354,7 @@ def start():
         webui.api_only()
     else:
         webui.webui()
+        webui.api_only()
 
 
 if __name__ == "__main__":
